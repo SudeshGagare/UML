@@ -1,3 +1,6 @@
+
+package client
+
 interface ClientState {
   frozen: boolean
   pastPublicKeys: Set<PublicKey>
